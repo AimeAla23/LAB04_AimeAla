@@ -1,0 +1,21 @@
+¿Como elimino una rama creada en git?
+    Se utiliza el comando "git branch -d" seguido del nombre de la rama que se desea eliminar, ya ejecutado el comando para verificar si la rama 
+    se elimino correctamente ejecutamos el comando "git branch" y la rama eliminada no deberia aparecer.
+
+—¿Por qué debería de usar la ramificación en proyectos?
+    Por que es una practica fundamental en la gestion del control de versiones, especialmente cuando se utiliza un sistema como git. 
+    Algunas razones para considerar el uso de ramificaciones:
+    • Separacion de caracteristicas, las ramas te permiten trabajar en nuevas características o correcciones de errores sin interferir con el 
+    código principal en la rama principal (generalmente denominada master o main). Esto significa que puedes desarrollar funciones nuevas de 
+    manera aislada y fusionarlas con el código principal cuando estén completas y probadas.
+    • Facilita el trabajo en equipo, Varios desarrolladores pueden trabajar en diferentes características al mismo tiempo, cada uno en su propia 
+    rama. Esto reduce las posibilidades de conflictos de código y facilita la colaboración en equipo.
+    • Revertir cambios facilmente, Si algo sale mal o introduces un error, puedes revertir fácilmente a una versión anterior fusionando una 
+    versión anterior de la rama en la rama principal.
+    En resumen, el uso de ramificaciones en proyectos proporciona un enfoque estructurado y seguro para el desarrollo de software, facilitando 
+    la colaboración en equipo, la gestión del código y la entrega de versiones estables y de alta calidad.
+
+—Usted recibió un ticket [SEM-005] y una vez terminado el trabajo usted decide crear una rama para un posterior PR. ¿Qué nombre pondría a la rama 
+al momento de crearla?
+    Al nombrar una rama para un trabajo especifico se pondria el nombre de feature/SEM-005_added-function
+
