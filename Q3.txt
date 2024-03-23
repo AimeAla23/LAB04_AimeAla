@@ -1,0 +1,16 @@
+¿COMO ES QUE SE INSTALAN PAQUETES CON YARN?
+    • Inicializar proyecto,asegurarnos de estar en el directorio del proyecto en el que se desea trabajar, si se esta comenzando un nuevo proyecto
+      se puede iniciar un nuevo proyecto de NOde.js ejecutando "yarn init" en la terminal y siguiendo las instrucciones para completar el archivo 
+      package.json.Si ya se tiene un proyecto existente con un archivo package.json simplemente navega a ese directorio en la terminal. 
+    • Instalar paquete, ya estando en el directorio del proyecto instalar paquetes con yarn ejecutando el comando "yarn add". Por ejemplo, si se 
+      desea instalar el paquete "lodash" se ejecuta el comando "yarn add lodash" esto instalara la ultima version de lodash y actualizara el archivo
+      package.json con la nueva dependencia. 
+    • Especificar versiones especificas, para esto debemos especificar junto con el nombre del paquete. Por ejemplo, para instalar la version 2.0.0
+      de lodash se ejecuta yarn addlodash@2.0.0
+    • Actualizar paquetes, se puede actualizar a las versiones mas recientes usando el comando "yarn upgrade". Por ejemplo, para actualizar lodash a 
+      la ultima version se ejecuta "yarn upgrade lodash".
+¿COMO ES QUE SE BORRAN PAQUETES CON YARN?
+    Se utiliza el comando "yarn remove", por ejemplo para eliminar lodash se ejecutara el comando "yarn remove lodash".
+¿HAY ALGUN EQUIVALENTE EN YARN QUE HAGA LO MISMO QUE NPM INIT?
+  Si, Yarn ofrece un comando similar a npm init llamado "yarn init". Este guiara a traves de la creacion de un nuevo archivo package.json pra el proyecto.  
+  Ambos se utilizan para inicializar un nuevo proyecto de Node.js y crear un archivo "package.json". 
