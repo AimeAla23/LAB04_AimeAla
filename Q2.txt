@@ -1,0 +1,3 @@
+¿Para que sirve el comando npm init?
+R. Este comando funciona como una herramienta para crear el archivo package.json de un proyecto, se pedirá proporcionar cierta información sobre 
+el proyecto que se esta inicializando. Esta información incluye el nombre del proyecto, el tipo de licencia, la versión,etc..a
